@@ -7,26 +7,26 @@ import Link from "next/link"
 const projects = [
   {
     id: 1,
-    title: "OZMANDIUS",
+    title: "COMPLETE EDA GUIDE",
     number: "01",
     description:
-      "[This project is about something interesting, you can not even imagine. You know this is a tentative design but in real life this will be changed by original description]",
-    githubUrl: "#",
+      "[This repository is a complete, hands-on EDA guide that blends clear theory with practical projects so you can move from data cleaning to insight storytelling with confidence. You’ll use Pandas for wrangling, Matplotlib/Seaborn for statistical visuals, and Plotly for interactive charts]",
+    githubUrl: "https://github.com/Harmain-Ali/Complete-EDA-Guide",
   },
   {
     id: 2,
-    title: "THE RAIN",
+    title: "POSTGRESQL FOR DATA SCIENCE",
     number: "02",
     description:
-      "[This project is about something interesting, you can not even imagine. You know this is a tentative design but in real life this will be changed by original description]",
-    githubUrl: "#",
+      "[his repository is a complete PostgreSQL cheatsheet designed to take you from zero → hero with clear theory, copy-paste SQL, and pgAdmin GUI steps for every topic. It’s built for data scientists, analysts, and developers who want a fast, practical path to mastering PostgreSQL—without wading through dry docs.]",
+    githubUrl: "https://github.com/Harmain-Ali/POSTGRE-SQL-FOR-DATA-SCIENCE",
   },
   {
     id: 3,
-    title: "REGRESSION",
+    title: "SQL ALCHMY FOR DATA SCIENCE",
     number: "03",
     description:
-      "[This project is about something interesting, you can not even imagine. You know this is a tentative design but in real life this will be changed by original description]",
+      "[This repository is a complete SQLAlchemy guide designed to take you from zero → hero with clear theory, copy-paste code snippets, and practical examples for every topic. It’s built for data scientists, analysts, and developers who want a fast, hands-on path to mastering SQLAlchemy—without wading through dry docs.]",
     githubUrl: "#",
   },
 ]

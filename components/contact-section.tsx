@@ -9,9 +9,9 @@ const contactInfo = [
 ]
 
 const socialLinks = [
-  { label: "GITHUB", href: "#" },
-  { label: "KAGGLE", href: "#" },
-  { label: "LINKEDIN", href: "#" },
+  { label: "GITHUB", href: "https://github.com/Harmain-Ali" },
+  { label: "KAGGLE", href: "https://www.kaggle.com/harmainali" },
+  { label: "LINKEDIN", href: "https://www.linkedin.com/in/harmain-ali/" },
   { label: "INSTAGRAM", href: "#" },
 ]
 

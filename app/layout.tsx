@@ -9,7 +9,6 @@ const inter = Inter({ subsets: ["latin"], weight: ["300", "400", "700", "800"] }
 export const metadata: Metadata = {
   title: "HARMAIN | Data Analyst",
   description: "Data Analyst based in Pakistan - Bringing Data to Real Life",
-    generator: 'v0.app'
 }
 
 export default function RootLayout({
