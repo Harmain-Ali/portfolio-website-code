@@ -100,7 +100,7 @@ export default function SelectedWork() {
                   <h3
                     className="font-bold uppercase transition-colors duration-300 group-hover:text-[#FF1E00]"
                     style={{
-                      fontSize: "clamp(2rem, 8vw, 8rem)",
+                      fontSize: "clamp(1.5rem, 4vw, 4rem)",
                       color: "#050505",
                       letterSpacing: "-0.08em",
                     }}
