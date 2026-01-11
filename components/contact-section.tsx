@@ -49,7 +49,8 @@ export default function ContactSection() {
             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
           >
             <h2
-              className="font-normal uppercase leading-[0.9]"
+              /* CHANGED: added font-pixel */
+              className="font-pixel font-normal uppercase leading-[0.9]"
               style={{
                 fontSize: "clamp(3rem, 10vw, 128px)",
                 color: "#050505",
@@ -73,7 +74,8 @@ export default function ContactSection() {
           {/* Column 2 - Contact Info */}
           <div className="px-8 pt-8 md:pt-0">
             <motion.h3
-              className="font-extrabold text-sm uppercase mb-4"
+              /* CHANGED: added font-pixel, changed font-extrabold to font-normal */
+              className="font-pixel font-normal text-sm uppercase mb-4"
               style={{ color: "#050505", letterSpacing: "-0.08em" }}
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
@@ -122,7 +124,8 @@ export default function ContactSection() {
           {/* Column 3 - Social Links */}
           <div className="pl-8 pt-8 md:pt-0">
             <motion.h3
-              className="font-extrabold text-sm uppercase mb-4"
+              /* CHANGED: added font-pixel, changed font-extrabold to font-normal */
+              className="font-pixel font-normal text-sm uppercase mb-4"
               style={{ color: "#050505", letterSpacing: "-0.08em" }}
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}

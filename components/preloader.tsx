@@ -36,7 +36,12 @@ export default function Preloader({ isLoading }: PreloaderProps) {
         >
           <div className="text-center overflow-hidden">
             <motion.span
-              className="block text-4xl md:text-6xl lg:text-8xl font-bold uppercase"
+              /* CHANGED: 
+                 - Added 'font-pixel'
+                 - Changed 'font-bold' to 'font-normal'
+                 - Reduced size to 'text-2xl' (mobile) and 'md:text-[40px]' (desktop) 
+              */
+              className="block font-pixel font-normal uppercase text-2xl md:text-[40px]"
               style={{ color: "#050505", letterSpacing: "-0.08em" }}
               initial={{ y: 100 }}
               animate={{ y: 0 }}

@@ -68,7 +68,8 @@ export default function SelectedWork() {
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
       >
         <h2
-          className="text-xl md:text-2xl font-normal leading-none uppercase"
+          /* CHANGED: added font-pixel */
+          className="font-pixel font-normal text-xl md:text-2xl leading-none uppercase"
           style={{ color: "#050505", letterSpacing: "-0.08em" }}
         >
           SELECTED
@@ -82,7 +83,7 @@ export default function SelectedWork() {
         className="max-w-7xl mx-auto"
         variants={containerVariants}
         initial="hidden"
-        animate={isInView ? "visible" : "hidden"}
+        animate={isInView ? "visible" : "hidden" }
       >
         {projects.map((project) => (
           <Link key={project.id} href={project.githubUrl} target="_blank" rel="noopener noreferrer">
@@ -98,7 +99,8 @@ export default function SelectedWork() {
               <div className="flex flex-col gap-4">
                 <div className="flex items-baseline gap-4">
                   <h3
-                    className="font-bold uppercase transition-colors duration-300 group-hover:text-[#FF1E00]"
+                    /* CHANGED: added font-pixel, changed font-bold to font-normal */
+                    className="font-pixel font-normal uppercase transition-colors duration-300 group-hover:text-[#FF1E00]"
                     style={{
                       fontSize: "clamp(1.5rem, 4vw, 4rem)",
                       color: "#050505",

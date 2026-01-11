@@ -44,7 +44,7 @@ export default function HeroSection() {
             </div>
           </motion.div>
 
-          {/* Left Typography with parallax */}
+         {/* Left Typography with parallax */}
           <motion.div
             className="absolute left-0 top-1/2 -translate-y-1/2 z-10"
             style={{ y: leftTextY }}
@@ -54,7 +54,7 @@ export default function HeroSection() {
           >
             <h1 className="leading-[0.85]">
               <span
-                className="block font-normal"
+                className="block font-pixel" /* <--- Changed to font-pixel */
                 style={{
                   fontSize: "clamp(3rem, 8vw, 8rem)",
                   color: "#FF1E00",
@@ -64,7 +64,7 @@ export default function HeroSection() {
                 DATA
               </span>
               <span
-                className="block font-normal"
+                className="block font-pixel" /* <--- Changed to font-pixel */
                 style={{
                   fontSize: "clamp(3rem, 8vw, 8rem)",
                   color: "#FF1E00",
@@ -88,7 +88,10 @@ export default function HeroSection() {
             transition={{ duration: 1, delay: 3.4, ease: [0.16, 1, 0.3, 1] }}
           >
             <h2 className="leading-[0.9]" style={{ fontSize: "clamp(1.5rem, 4vw, 3rem)", letterSpacing: "-0.08em" }}>
-              <span className="block font-extrabold" style={{ color: "#FF1E00" }}>
+              <span 
+                className="block font-pixel font-normal" 
+                style={{ color: "#FF1E00" }}
+              >
                 I&apos;M HARMAIN
               </span>
               <span className="block font-normal" style={{ color: "#FF1E00" }}>

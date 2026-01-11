@@ -75,7 +75,13 @@
 }
 
 @theme inline {
-  --font-sans: "Inter", "Helvetica Neue", "Arial", sans-serif;
+
+  /* CHANGE THIS: Connect font-sans to your Neue Regrade variable */
+  --font-sans: var(--font-regrade), "Inter", "Helvetica Neue", "Arial", sans-serif;
+  
+  /* ADD THIS: Create a new utility for your pixel font */
+
+  --font-pixel: var(--font-mondwest), serif;
   --font-mono: "Geist Mono", "Geist Mono Fallback";
   --color-background: var(--background);
   --color-foreground: var(--foreground);

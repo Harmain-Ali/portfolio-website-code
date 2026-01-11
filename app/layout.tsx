@@ -1,10 +1,32 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import localFont from "next/font/local" // Import localFont
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
-const inter = Inter({ subsets: ["latin"], weight: ["300", "400", "700", "800"] })
+// 1. Setup Neue Regrade (Main Font)
+const neueRegrade = localFont({
+  src: [
+    {
+      path: "./fonts/Neue Regrade Regular.otf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Neue Regrade Bold.otf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--font-regrade", // We will use this ID in CSS
+})
+
+// 2. Setup PPMondwest (Pixel Font)
+const ppMondwest = localFont({
+  src: "./fonts/PPMondwest-Regular.otf",
+  variable: "--font-mondwest",
+  weight: "400",
+})
 
 export const metadata: Metadata = {
   title: "HARMAIN | Data Analyst",
@@ -18,7 +40,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans antialiased`}>
+      {/* 3. Inject the variables here */}
+      <body className={`${neueRegrade.variable} ${ppMondwest.variable} font-sans antialiased`}>
         {children}
         <Analytics />
       </body>

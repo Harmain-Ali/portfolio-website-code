@@ -27,7 +27,8 @@ export default function AboutSection() {
     >
       <div className="max-w-7xl mx-auto">
         <motion.h2
-          className="text-xl md:text-2xl font-normal uppercase leading-none mb-16 md:mb-24"
+          /* CHANGED: added font-pixel */
+          className="font-pixel font-normal text-xl md:text-2xl uppercase leading-none mb-16 md:mb-24"
           style={{ color: "#050505", letterSpacing: "-0.08em" }}
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
@@ -63,7 +64,8 @@ export default function AboutSection() {
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
             >
               <p
-                className="text-lg md:text-xl font-normal uppercase leading-tight"
+                /* CHANGED: added font-pixel */
+                className="font-pixel font-normal text-lg md:text-xl uppercase leading-tight"
                 style={{ color: "#050505", letterSpacing: "-0.08em" }}
               >
                 STUDENT/
@@ -84,7 +86,11 @@ export default function AboutSection() {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 60 }}
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
             >
-              <span className="block text-sm font-bold mb-4" style={{ color: "#FF1E00", letterSpacing: "-0.08em" }}>
+              <span 
+                /* CHANGED: added font-pixel, changed font-bold to font-normal */
+                className="font-pixel font-normal block text-sm mb-4" 
+                style={{ color: "#FF1E00", letterSpacing: "-0.08em" }}
+              >
                 [INTRODUCTION]
               </span>
               <p
@@ -109,7 +115,11 @@ export default function AboutSection() {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 60 }}
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.5 }}
             >
-              <span className="block text-sm font-bold mb-6" style={{ color: "#FF1E00", letterSpacing: "-0.08em" }}>
+              <span 
+                /* CHANGED: added font-pixel, changed font-bold to font-normal */
+                className="font-pixel font-normal block text-sm mb-6" 
+                style={{ color: "#FF1E00", letterSpacing: "-0.08em" }}
+              >
                 [SKILLS]
               </span>
               <div className="flex flex-col gap-1">
