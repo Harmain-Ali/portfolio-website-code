@@ -98,7 +98,7 @@ export default function HeroSection() {
                 AND I BRING DATA
               </span>
               <span className="block font-normal" style={{ color: "#FF1E00" }}>
-                TO REAL LIFE.
+                TO LIFE.
               </span>
             </h2>
           </motion.div>

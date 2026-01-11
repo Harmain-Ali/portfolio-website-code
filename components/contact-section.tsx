@@ -76,7 +76,7 @@ export default function ContactSection() {
             <motion.h3
               /* CHANGED: added font-pixel, changed font-extrabold to font-normal */
               className="font-pixel font-normal text-sm uppercase mb-4"
-              style={{ color: "#050505", letterSpacing: "-0.08em" }}
+              style={{ color: "#050505", letterSpacing: "0em" }}
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
@@ -126,7 +126,7 @@ export default function ContactSection() {
             <motion.h3
               /* CHANGED: added font-pixel, changed font-extrabold to font-normal */
               className="font-pixel font-normal text-sm uppercase mb-4"
-              style={{ color: "#050505", letterSpacing: "-0.08em" }}
+              style={{ color: "#050505", letterSpacing: "0em" }}
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
