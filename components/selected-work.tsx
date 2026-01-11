@@ -7,7 +7,7 @@ import Link from "next/link"
 const projects = [
   {
     id: 1,
-    title: "COMPLETE EDA GUIDE",
+    title: "COMPLETE  EDA  GUIDE",
     number: "01",
     description:
       "[This repository is a complete, hands-on EDA guide that blends clear theory with practical projects so you can move from data cleaning to insight storytelling with confidence. You’ll use Pandas for wrangling, Matplotlib/Seaborn for statistical visuals, and Plotly for interactive charts]",
@@ -15,7 +15,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "POSTGRESQL FOR DATA SCIENCE",
+    title: "POSTGRESQL  FOR  DATA  SCIENCE",
     number: "02",
     description:
       "[his repository is a complete PostgreSQL cheatsheet designed to take you from zero → hero with clear theory, copy-paste SQL, and pgAdmin GUI steps for every topic. It’s built for data scientists, analysts, and developers who want a fast, practical path to mastering PostgreSQL—without wading through dry docs.]",
@@ -23,7 +23,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "SQL ALCHMY FOR DATA SCIENCE",
+    title: "SQL  ALCHMY  FOR  DATA  SCIENCE",
     number: "03",
     description:
       "[This repository is a complete SQLAlchemy guide designed to take you from zero → hero with clear theory, copy-paste code snippets, and practical examples for every topic. It’s built for data scientists, analysts, and developers who want a fast, hands-on path to mastering SQLAlchemy—without wading through dry docs.]",
@@ -118,7 +118,8 @@ export default function SelectedWork() {
                 </div>
                 <p
                   className="text-sm max-w-xs leading-relaxed font-normal"
-                  style={{ color: "#FF1E00", letterSpacing: "-0.08em" }}
+                  /* CHANGED: Set letterSpacing to 0em */
+                  style={{ color: "#FF1E00", letterSpacing: "0em" }}
                 >
                   {project.description}
                 </p>
