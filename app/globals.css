@@ -75,10 +75,8 @@
 }
 
 @theme inline {
-
-  /* CHANGE THIS: Connect font-sans to your Neue Regrade variable */
-  --font-sans: var(--font-regrade), "Inter", "Helvetica Neue", "Arial", sans-serif;
-  
+  /* 1. Reset Sans to use Inter */
+  --font-sans: var(--font-inter), "Helvetica Neue", "Arial", sans-serif;
   /* ADD THIS: Create a new utility for your pixel font */
 
   --font-pixel: var(--font-mondwest), serif;
