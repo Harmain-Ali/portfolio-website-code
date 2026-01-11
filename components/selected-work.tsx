@@ -119,7 +119,7 @@ export default function SelectedWork() {
                 <p
                   className="text-sm max-w-xs leading-relaxed font-normal"
                   /* CHANGED: Set letterSpacing to 0em */
-                  style={{ color: "#FF1E00", letterSpacing: "0em" }}
+                  style={{ color: "#FF1E00", letterSpacing: "-0.08em" }}
                 >
                   {project.description}
                 </p>

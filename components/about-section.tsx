@@ -95,14 +95,14 @@ export default function AboutSection() {
               </span>
               <p
                 className="text-base md:text-lg font-normal leading-relaxed uppercase mb-4"
-                style={{ color: "#050505", letterSpacing: "0em" }}
+                style={{ color: "#050505", letterSpacing: "-0.08em" }}
               >
                 I&apos;M A 20-YEAR-OLD STUDENT WITH A PASSION FOR DIVING DEEP INTO DATA. I&apos;VE HONED MY SKILLS IN
                 DATA ANALYTICS, WHERE I LOVE TURNING RAW DATA INTO MEANINGFUL INSIGHTS.
               </p>
               <p
                 className="text-base md:text-lg font-normal leading-relaxed uppercase"
-                style={{ color: "#050505", letterSpacing: "0em" }}
+                style={{ color: "#050505", letterSpacing: "-0.08em" }}
               >
                 I LOVE TO UNCOVER STORIES HIDDEN IN NUMBERS AND HELPING OTHERS MAKE INFORMED DECISIONS BASED ON SOLID
                 DATA.
