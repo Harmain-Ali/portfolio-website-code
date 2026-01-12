@@ -56,7 +56,7 @@ const itemVariants = {
 
 export default function SelectedWork() {
   const sectionRef = useRef<HTMLElement>(null)
-  const isInView = useInView(sectionRef, { once: true, margin: "-20%" })
+  const isInView = useInView(sectionRef, { once: true, margin: "-40%" })
 
   return (
     <section id="work" ref={sectionRef} className="py-20 md:py-32 px-6 md:px-10" style={{ backgroundColor: "#FBFBFB" }}>

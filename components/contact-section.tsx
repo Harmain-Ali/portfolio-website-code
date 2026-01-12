@@ -30,7 +30,7 @@ const linkVariants = {
 
 export default function ContactSection() {
   const sectionRef = useRef<HTMLElement>(null)
-  const isInView = useInView(sectionRef, { once: true, margin: "-20%" })
+  const isInView = useInView(sectionRef, { once: true, margin: "-40%" })
 
   return (
     <section
