@@ -9,7 +9,7 @@ const skills = ["PYTHON/", "POSTGRES SQL/", "NUMPY/", "PANDAS/", "PLOTLY/", "JUP
 export default function AboutSection() {
   const [hoveredSkill, setHoveredSkill] = useState<number | null>(null)
   const sectionRef = useRef<HTMLElement>(null)
-  const isInView = useInView(sectionRef, { once: true, margin: "-100px" })
+  const isInView = useInView(sectionRef, { once: true, margin: "-20%" })
 
   const { scrollYProgress } = useScroll({
     target: sectionRef,
