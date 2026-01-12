@@ -42,7 +42,7 @@ export default function Preloader({ isLoading }: PreloaderProps) {
                  - Reduced size to 'text-2xl' (mobile) and 'md:text-[40px]' (desktop) 
               */
               className="block font-pixel font-normal uppercase text-2xl md:text-[40px]"
-              style={{ color: "#050505", letterSpacing: "-0.08em" }}
+              style={{ color: "#050505", letterSpacing: "0em" }}
               initial={{ y: 100 }}
               animate={{ y: 0 }}
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
