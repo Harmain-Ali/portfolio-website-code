@@ -16,7 +16,7 @@ export default function Navigation() {
     >
       <motion.a
         href="#"
-        className="font-pixel font-normal text-2xl md:text-[15px]  tracking-tighter leading-none"
+        className="font-normal text-2xl md:text-[15px]  tracking-tighter leading-none"
         style={{ color: "#FBFBFB" }}
         whileHover={{ scale: 1.05 }}
         transition={{ duration: 0.3 }}
